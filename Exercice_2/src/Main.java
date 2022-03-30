@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) {
 
         /* Création de la liste des patients0 */
-        List<int[]> patients0 = Arrays.asList(new int[]{0, 0}, new int[]{0, 0});
+        List<int[]> patients0 = Arrays.asList(new int[]{1, 1}, new int[]{10, 15});
 
         System.out.println(virus(patients0, 100));
     }
