@@ -3,6 +3,13 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
+/**
+ * Ce programme correspond à la modélisation de l'exercice proposé par Mine Of Ware
+ * Il permet de simuler l'évolution d'un virus au sein d'une population
+ * Avec le choix des personnes contaminées avant le lancement
+ * Et retournant le nombre de cas comptabilisés à chaque cycle
+ */
+
 public class Main {
 
     public static void main(String[] args) {
@@ -185,7 +192,6 @@ class MyInt {
      * Redéfinition de la méthode hashCode appliquée sur le tableau myCase
      * @return hash de l'objet courant
      */
-
     @Override
     public int hashCode() {
         return Arrays.hashCode(myCase);
